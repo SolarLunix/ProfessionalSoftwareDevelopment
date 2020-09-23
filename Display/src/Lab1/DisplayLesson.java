@@ -1,12 +1,13 @@
 /*
- *    Week1
- *    Created by: Melissa Melaugh
- *    Created on: 23/09/2020
- *    Updated on: 23/09/2020
+ *   ProfessionalSoftwareDevelopment:Lab1
+ *   File:          DisplayLesson
+ *   Created by:    Melissa Melaugh
+ *   Created on:    23/09/2020
+ *   Updated on:    23/09/2020
  *    Project Description: This project is just to show how print and print ln work. I have added each one into its own
  *          method in order to maintain readibility and keep from creating a number of different classes.
  */
-package Week1;
+package Lab1;
 
 public class DisplayLesson
 {

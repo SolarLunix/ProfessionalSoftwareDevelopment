@@ -1,12 +1,12 @@
 /*
- *   ProfessionalSoftwareDevelopment:Week1
+ *   ProfessionalSoftwareDevelopment:Lab1
  *   File:          Me1
  *   Created by:    Melissa Melaugh
  *   Created on:    23/09/2020
  *   Updated on:    23/09/2020
  *   Project Description: A simple program to display information about a person named Melissa Melaugh
  */
-package Week1;
+package Lab1;
 
 public class Me1
 {
