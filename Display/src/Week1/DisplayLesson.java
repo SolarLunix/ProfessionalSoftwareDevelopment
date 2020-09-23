@@ -21,6 +21,8 @@ public class DisplayLesson
         countDown();
         System.out.println();
         showInfo();
+        System.out.println();
+        letterV();
     }
 
     private static void printE1()
@@ -78,5 +80,14 @@ public class DisplayLesson
         System.out.println("\t\t\t\t\t\tUniversity of Ulster");
         System.out.println("\t\t\t\t\t\tMagee");
         System.out.println("\nProgramming in Java is a piece of cake......");
+    }
+
+    private static void letterV()
+    {
+        //This method is used to create a wide letter v out of capital Vs
+        System.out.println("V\t\t\t\t\t\tV");
+        System.out.println("\tV\t\t\t\tV");
+        System.out.println("\t\tV\t\tV");
+        System.out.println("\t\t\tV");
     }
 }
