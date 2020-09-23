@@ -14,19 +14,19 @@ public class Me1
     {
         System.out.println();
         System.out.print("Name: \tMelissa Melaugh");
-        System.out.print("\t\t\t");
+        System.out.print("\t\t\t\t");
         System.out.println("Address: \t1 Cloudfoot Lane");
-        System.out.print("\t\t\t\t\t\t\t\t\t\t\t");
+        System.out.print("\t\t\t\t\t\t\t\t\t\t\t\t");
         System.out.println("Rainbow, Co. Antrim, BT1 IDC");
-        System.out.print("\t\t\t\t\t\t\t\t\t\t\t");
+        System.out.print("\t\t\t\t\t\t\t\t\t\t\t\t");
         System.out.println("Ireland");
         System.out.println();
         System.out.println("Phone: \t0123456789");
         System.out.println();
         System.out.println("eMail: \tsolarlunix@fakeemail.com");
         System.out.println();
-        System.out.print("Height: \t5'6\"");
-        System.out.print("\t\t\t\t");
+        System.out.print("Height: 5'6\"");
+        System.out.print("\t\t\t\t\t\t");
         System.out.println("Weight: \t1 feather");
     }
 }
