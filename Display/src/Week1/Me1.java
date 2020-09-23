@@ -28,5 +28,5 @@ public class Me1
         System.out.print("Height: 5'6\"");
         System.out.print("\t\t\t\t\t\t");
         System.out.println("Weight: \t1 feather");
-    }
-}
+    }//end main
+}//end Me1

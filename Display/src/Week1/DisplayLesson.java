@@ -23,7 +23,7 @@ public class DisplayLesson
         showInfo();
         System.out.println();
         letterV();
-    }
+    }//end main
 
     private static void printE1()
     {
@@ -35,7 +35,7 @@ public class DisplayLesson
         System.out.println("*");
         System.out.println("*");
         System.out.println("*****");
-    }
+    }//end printE1
 
     private static void printE2()
     {
@@ -47,7 +47,7 @@ public class DisplayLesson
         System.out.print("*\n");
         System.out.print("*\n");
         System.out.print("*****\n");
-    }
+    }//end printE2
 
     private static void printE3()
     {
@@ -59,7 +59,7 @@ public class DisplayLesson
         System.out.print("*\t\t*\n");
         System.out.print("*\t\t*\n");
         System.out.print("*****\t*****\n");
-    }
+    }//end printE3
 
     private static void countDown()
     {
@@ -70,7 +70,7 @@ public class DisplayLesson
         System.out.print("Zero... ");
         System.out.println("Liftoff!");
         System.out.println("Houston, we have a problem.");
-    }
+    }//end countDown
 
     private static void showInfo()
     {
@@ -80,7 +80,7 @@ public class DisplayLesson
         System.out.println("\t\t\t\t\t\tUniversity of Ulster");
         System.out.println("\t\t\t\t\t\tMagee");
         System.out.println("\nProgramming in Java is a piece of cake......");
-    }
+    }//end show Info
 
     private static void letterV()
     {
@@ -89,5 +89,5 @@ public class DisplayLesson
         System.out.println("\tV\t\t\t\tV");
         System.out.println("\t\tV\t\tV");
         System.out.println("\t\t\tV");
-    }
+    }//end letterV
 }
