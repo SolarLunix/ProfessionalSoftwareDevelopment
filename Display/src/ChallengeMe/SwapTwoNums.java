@@ -1,10 +1,10 @@
 /*
  *   ProfessionalSoftwareDevelopment:ChallengeMe
- *   File: //TODO
+ *   File: SwapTwoNums
  *   Created by: Melissa Melaugh
  *   Created on: 24/09/2020
  *   Updated on: 24/09/2020
- *   Project Description: //TODO
+ *   Project Description: Create a program that swaps two numbers without using an intermediary variable.
  */
 package ChallengeMe;
 
