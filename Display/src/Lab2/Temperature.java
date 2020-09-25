@@ -13,7 +13,7 @@ import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Temperature {
-    static private double RATIO = (9.0/5);
+    static private double RATIO = (9.0/5), ADJUSTMENT = 32;
     static private Scanner sc = new Scanner(System.in);
 
     static public void main(String[] args){
@@ -41,10 +41,10 @@ public class Temperature {
     }
 
     static private double celciusToFarenheight(double c){
-        return (c * RATIO) + 32;
+        return (c * RATIO) + ADJUSTMENT;
     }
 
     static private double farenheightToCelcius(double f){
-        return ((f - 32) / RATIO);
+        return ((f - ADJUSTMENT) / RATIO);
     }
 }
