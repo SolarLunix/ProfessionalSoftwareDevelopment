@@ -7,12 +7,11 @@
  *   Project Description: //TODO
  */
 package Lab2;
-import Lab2.RectangularVolume;
 
 public class Geometry {
     public static void main(String[] args){
-        RectangularVolume volume = new RectangularVolume(3, 4, 5);
-        System.out.println("Area: " + volume.getArea());
-        System.out.println("Perimeter: " + volume.getPerimeter());
+        Box box = new Box(2, 3, 4);
+        System.out.println("Area: " + box.getArea());
+        System.out.println("Perimeter: " + box.getPerimeter());
     }//end main
 }//end Geometry

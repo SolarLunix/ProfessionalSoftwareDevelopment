@@ -8,14 +8,14 @@
  */
 package Lab2;
 
-public class RectangularVolume {
-    private float length;
-    private float width;
-    private float height;
-    private float area;
-    private float perimeter; //sometimes called perimeter
+public class Box {
+    private double length;
+    private double width;
+    private double height;
+    private double area;
+    private double perimeter; //sometimes called perimeter
 
-    public RectangularVolume(float length, float width, float height){
+    public Box(double length, double width, double height){
         this.length = length;
         this.width = width;
         this.height = height;
@@ -23,23 +23,23 @@ public class RectangularVolume {
         this.perimeter = (4 * length) + (4 * width) + (4 * height);
     }//end constructor
 
-    public float getArea() {
+    public double getArea() {
         return area;
     }//end getArea
 
-    public float getPerimeter() {
+    public double getPerimeter() {
         return perimeter;
     }//end getSurfaceArea
 
-    public float getHeight() {
+    public double getHeight() {
         return height;
     }//end getHeight
 
-    public float getLength() {
+    public double getLength() {
         return length;
     }//end getLength
 
-    public float getWidth() {
+    public double getWidth() {
         return width;
     }//end getWidth
 }
