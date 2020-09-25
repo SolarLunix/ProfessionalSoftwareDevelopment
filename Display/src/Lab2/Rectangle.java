@@ -1,10 +1,10 @@
 /*
  *   ProfessionalSoftwareDevelopment:Lab2
- *   File: //TODO
+ *   File: Rectangle
  *   Created by: Melissa Melaugh
  *   Created on: 25/09/2020
  *   Updated on: 25/09/2020
- *   Project Description: //TODO
+ *   Project Description: Create and hold a rectangle and calculate its area and perimeter
  */
 package Lab2;
 

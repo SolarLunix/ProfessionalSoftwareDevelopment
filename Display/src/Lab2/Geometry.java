@@ -1,10 +1,10 @@
 /*
  *   ProfessionalSoftwareDevelopment:Lab2
- *   File: //TODO
+ *   File: Geometry
  *   Created by: Melissa Melaugh
  *   Created on: 24/09/2020
  *   Updated on: 24/09/2020
- *   Project Description: //TODO
+ *   Project Description: Geometry connects the different geometric objects and displays the calculations for their information
  */
 package Lab2;
 

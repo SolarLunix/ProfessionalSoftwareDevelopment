@@ -1,10 +1,10 @@
 /*
  *   ProfessionalSoftwareDevelopment:Lab2
- *   File: //TODO
+ *   File: Box
  *   Created by: Melissa Melaugh
  *   Created on: 24/09/2020
  *   Updated on: 24/09/2020
- *   Project Description: //TODO
+ *   Project Description: Creates a Box object and calculates its area and perimeter
  */
 package Lab2;
 
