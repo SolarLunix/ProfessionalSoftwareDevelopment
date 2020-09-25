@@ -23,7 +23,14 @@ public class Geometry {
         makeRectangle(5.2, 4.3);
         newLine();
         makeRectangle(34.55, 23.67);
-
+        newLine();
+        makeCircle(4.5);
+        newLine();
+        makeCircle(5);
+        newLine();
+        makeCircle(5.5);
+        newLine();
+        makeCircle(8.25);
     }//end main
 
     private static void newLine(){
@@ -37,7 +44,7 @@ public class Geometry {
                 "cm wide and " + df.format(box.getLength()) + "cm deep");
         System.out.println("The volume of the box is " + df.format(box.getArea()) + " cms cubed");
         System.out.println("The perimeter of the box is " + df.format(box.getPerimeter()) + " cms");
-    }
+    }//end makeBox
 
     private static void makeRectangle(double length, double width){
         Rectangle rectangle = new Rectangle(length, width);
@@ -46,5 +53,14 @@ public class Geometry {
         System.out.println("Rectangle breadth = " + df.format(rectangle.getWidth()));
         System.out.println("Rectangle Area = " + df.format(rectangle.getArea()));
         System.out.println("Rectangle Perimeter " + df.format(rectangle.getPerimeter()));
+    }//end makeRectangle
+
+    private static void makeCircle(double radius){
+        Circle circle = new Circle(radius);
+        DecimalFormat df = new DecimalFormat("0.00");
+        System.out.println("The radius is " + df.format(circle.getRadius()) + " units");
+        System.out.println("The diameter is " + df.format(circle.getDiameter()) + " units");
+        System.out.println("The circumference is " + df.format(circle.getCircumference()) + " units");
+        System.out.println("The area is " + df.format(circle.getArea()) + " units squared");
     }
 }//end Geometry

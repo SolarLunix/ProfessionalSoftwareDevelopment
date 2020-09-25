@@ -9,18 +9,19 @@
 package Lab2;
 
 public class Box {
+    private final int SIDES = 4;
     private double length;
     private double width;
     private double height;
     private double area;
-    private double perimeter; //sometimes called perimeter
+    private double perimeter;
 
     public Box(double length, double width, double height){
         this.length = length;
         this.width = width;
         this.height = height;
         this.area = length * width * height;
-        this.perimeter = (4 * length) + (4 * width) + (4 * height);
+        this.perimeter = this.SIDES * (length + width + height);
     }//end constructor
 
     public double getArea() {

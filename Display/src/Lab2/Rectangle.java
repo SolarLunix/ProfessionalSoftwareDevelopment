@@ -9,6 +9,7 @@
 package Lab2;
 
 public class Rectangle {
+    private final int SIDES = 2;
     private double width;
     private double height;
     private double area;
@@ -18,7 +19,7 @@ public class Rectangle {
         this.width = width;
         this.height = height;
         this.area = width * height;
-        this.perimeter = (2 * width) + (2 * height);
+        this.perimeter = this.SIDES * (width + height);
     }
 
     public double getArea() {
