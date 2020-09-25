@@ -20,7 +20,7 @@ public class Rectangle {
         this.height = height;
         this.area = width * height;
         this.perimeter = this.SIDES * (width + height);
-    }
+    }//end constructor
 
     public double getArea() {
         return area;

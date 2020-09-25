@@ -31,6 +31,16 @@ public class Geometry {
         makeCircle(5.5);
         newLine();
         makeCircle(8.25);
+        newLine();
+        checkDensity(40, 8);
+        newLine();
+        checkDensity(500, 24.2);
+        newLine();
+        checkDensity(3.4, 20);
+        newLine();
+        checkDensity(4.5, 14.5);
+        newLine();
+        checkDensity(100, 100);
     }//end main
 
     private static void newLine(){
@@ -62,5 +72,14 @@ public class Geometry {
         System.out.println("The diameter is " + df.format(circle.getDiameter()) + " units");
         System.out.println("The circumference is " + df.format(circle.getCircumference()) + " units");
         System.out.println("The area is " + df.format(circle.getArea()) + " units squared");
-    }
+    }//end makeCircle
+
+    private static void checkDensity(double mass, double volume){
+        Density density = new Density(mass, volume);
+        DecimalFormat df1 = new DecimalFormat("0.0");
+        DecimalFormat df2 = new DecimalFormat("0.00");
+        System.out.println("Mass = " + df1.format(density.getMass()) + " kg");
+        System.out.println("Volume = " + df1.format(density.getVolume()) + " meters cubed");
+        System.out.println("Density = " + df2.format(density.getDensity()) + " kg per meter cubed");
+    }//end checkDensity
 }//end Geometry

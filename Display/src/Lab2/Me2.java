@@ -37,5 +37,5 @@ public class Me2 {
         System.out.print("Height: " + heightFeet + "'" +heightInches + "\"");
         System.out.print("\t\t\t\t\t\t");
         System.out.println("Weight: \t" + weight + " " + weightUnit);
-    }
-}
+    }//end main
+}//end Me2

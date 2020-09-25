@@ -1,14 +1,13 @@
 /*
  *   ProfessionalSoftwareDevelopment:Lab2
- *   File: //TODO
+ *   File: Temperature
  *   Created by: Melissa Melaugh
  *   Created on: 25/09/2020
  *   Updated on: 25/09/2020
- *   Project Description: //TODO
+ *   Project Description: Asks you what your base temperatue is and converts it between F and C.
  */
 package Lab2;
 
-import javax.swing.*;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
@@ -38,13 +37,13 @@ public class Temperature {
         }
         System.out.println("Celsius: " + df.format(c));
         System.out.println("Farenheight: " + df.format(f));
-    }
+    }//end main
 
     static private double celciusToFarenheight(double c){
         return (c * RATIO) + ADJUSTMENT;
-    }
+    }//end celciusToFarenheight
 
     static private double farenheightToCelcius(double f){
         return ((f - ADJUSTMENT) / RATIO);
-    }
+    }//end farenheightToCelcius
 }
