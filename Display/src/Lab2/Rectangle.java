@@ -1,12 +1,13 @@
-/*
+package Lab2;
+
+/*******
  *   ProfessionalSoftwareDevelopment:Lab2
  *   File: Rectangle
  *   Created by: Melissa Melaugh
  *   Created on: 25/09/2020
- *   Updated on: 25/09/2020
+ *   Updated on: 30/09/2020
  *   Project Description: Create and hold a rectangle and calculate its area and perimeter
- */
-package Lab2;
+ *******/
 
 public class Rectangle {
     private final int SIDES = 2;

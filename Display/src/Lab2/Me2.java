@@ -1,12 +1,13 @@
-/*
+package Lab2;
+
+/*******
  *   ProfessionalSoftwareDevelopment:Lab2
  *   File: Me2
  *   Created by: Melissa Melaugh
  *   Created on: 25/09/2020
- *   Updated on: 25/09/2020
+ *   Updated on: 30/09/2020
  *   Project Description: Print out personal identifiable information using variables
- */
-package Lab2;
+ *******/
 
 public class Me2 {
     public static void main(String[] args){

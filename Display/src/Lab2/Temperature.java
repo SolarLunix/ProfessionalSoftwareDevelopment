@@ -1,22 +1,23 @@
-/*
- *   ProfessionalSoftwareDevelopment:Lab2
- *   File: Temperature
- *   Created by: Melissa Melaugh
- *   Created on: 25/09/2020
- *   Updated on: 25/09/2020
- *   Project Description: Asks you what your base temperatue is and converts it between F and C.
- */
 package Lab2;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
+/*******
+ *   ProfessionalSoftwareDevelopment:Lab2
+ *   File: Temperature
+ *   Created by: Melissa Melaugh
+ *   Created on: 25/09/2020
+ *   Updated on: 30/09/2020
+ *   Project Description: Asks you what your base temperatue is and converts it between F and C.
+ *******/
+
 public class Temperature {
-    static private double RATIO = (9.0/5), ADJUSTMENT = 32;
+    static private final double RATIO = (9.0/5), ADJUSTMENT = 32;
     static private Scanner sc = new Scanner(System.in);
 
     static public void main(String[] args){
-        double c=0, f=0;
+        double celcius=0, farenheight=0;
         char type;
         DecimalFormat df = new DecimalFormat("0.0");
 
@@ -26,24 +27,28 @@ public class Temperature {
         System.out.println("What is the temperature you want converted? (Press enter when done)");
 
         if (type == 'c'){
-            c = sc.nextDouble();
-            f = celciusToFarenheight(c);
+            celcius = sc.nextDouble();
+            farenheight = celciusToFarenheight(celcius);
         } else if (type == 'f') {
-            f = sc.nextDouble();
-            c = farenheightToCelcius(f);
+            farenheight = sc.nextDouble();
+            celcius = farenheightToCelcius(farenheight);
         } else {
             System.out.println("Unsupported temperature!");
             System.exit(1);
         }
-        System.out.println("Celsius: " + df.format(c));
-        System.out.println("Farenheight: " + df.format(f));
+        System.out.println("Celsius: " + df.format(celcius));
+        System.out.println("Farenheight: " + df.format(farenheight));
     }//end main
 
-    static private double celciusToFarenheight(double c){
-        return (c * RATIO) + ADJUSTMENT;
+    static private double celciusToFarenheight(double celcius){
+        double farenheight;
+        farenheight = (celcius * RATIO) + ADJUSTMENT;
+        return farenheight;
     }//end celciusToFarenheight
 
-    static private double farenheightToCelcius(double f){
-        return ((f - ADJUSTMENT) / RATIO);
+    static private double farenheightToCelcius(double farenheight){
+        double celcius;
+        celcius = ((farenheight - ADJUSTMENT) / RATIO);
+        return celcius;
     }//end farenheightToCelcius
 }

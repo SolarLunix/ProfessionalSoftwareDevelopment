@@ -1,13 +1,14 @@
+package SwingTest;
+
+import javax.swing.JOptionPane;
+
 /*
 *    SwingTest
 *    Created by: Melissa Melaugh
 *    Created on: 23/09/2020
-*    Updated on: 23/09/2020
+*    Updated on: 30/09/2020
 *    Project Description: This program is simply to test using the swing dispaly as we were shown in the lecture.
 */
-package SwingTest;
-
-import javax.swing.JOptionPane;
 
 public class SwingDisplay {
     public static void main(String[] args){

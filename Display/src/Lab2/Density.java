@@ -1,12 +1,13 @@
-/*
+package Lab2;
+
+/*******
  *   ProfessionalSoftwareDevelopment:Lab2
  *   File: Density
  *   Created by: Melissa Melaugh
  *   Created on: 25/09/2020
- *   Updated on: 25/09/2020
+ *   Updated on: 30/09/2020
  *   Project Description: Takes the mass and volume and calculates the density, storing all values.
- */
-package Lab2;
+ *******/
 
 public class Density {
     private double mass;

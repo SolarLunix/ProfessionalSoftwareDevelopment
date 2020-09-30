@@ -1,16 +1,19 @@
-/*
- *   ProfessionalSoftwareDevelopment:Lab2
- *   File: Geometry
- *   Created by: Melissa Melaugh
- *   Created on: 24/09/2020
- *   Updated on: 24/09/2020
- *   Project Description: Geometry connects the different geometric objects and displays the calculations for their information
- */
 package Lab2;
 
 import java.text.DecimalFormat;
 
+/*******
+ *   ProfessionalSoftwareDevelopment:Lab2
+ *   File: Geometry
+ *   Created by: Melissa Melaugh
+ *   Created on: 24/09/2020
+ *   Updated on: 30/09/2020
+ *   Project Description: Geometry connects the different geometric objects and displays the calculations for their information
+ *******/
+
 public class Geometry {
+    static private DecimalFormat df = new DecimalFormat("0.00");
+
     public static void main(String[] args){
         makeBox(5, 4, 3);
         newLine();
@@ -48,7 +51,6 @@ public class Geometry {
     }//end newLine
 
     private static void makeBox(double length, double width, double height){
-        DecimalFormat df = new DecimalFormat("0.00");
         Box box = new Box(length, width, height);
         System.out.println("The box is " + box.getHeight() + "cm high, " + df.format(box.getWidth()) +
                 "cm wide and " + df.format(box.getLength()) + "cm deep");
@@ -58,7 +60,6 @@ public class Geometry {
 
     private static void makeRectangle(double length, double width){
         Rectangle rectangle = new Rectangle(length, width);
-        DecimalFormat df = new DecimalFormat("0.00");
         System.out.println("Rectangle length = " + df.format(rectangle.getHeight()));
         System.out.println("Rectangle breadth = " + df.format(rectangle.getWidth()));
         System.out.println("Rectangle Area = " + df.format(rectangle.getArea()));
@@ -67,7 +68,6 @@ public class Geometry {
 
     private static void makeCircle(double radius){
         Circle circle = new Circle(radius);
-        DecimalFormat df = new DecimalFormat("0.00");
         System.out.println("The radius is " + df.format(circle.getRadius()) + " units");
         System.out.println("The diameter is " + df.format(circle.getDiameter()) + " units");
         System.out.println("The circumference is " + df.format(circle.getCircumference()) + " units");

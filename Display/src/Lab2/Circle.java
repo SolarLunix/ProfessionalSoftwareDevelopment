@@ -1,12 +1,13 @@
-/*
+package Lab2;
+
+/*******
  *   ProfessionalSoftwareDevelopment:Lab2
  *   File: Circle
  *   Created by: Melissa Melaugh
  *   Created on: 25/09/2020
- *   Updated on: 25/09/2020
+ *   Updated on: 30/09/2020
  *   Project Description: An object that takes and holds the radius and calculates the diameter, circumference, and area
- */
-package Lab2;
+ *******/
 
 public class Circle {
     private final int RADIUS_TO_DIAMETER = 2;

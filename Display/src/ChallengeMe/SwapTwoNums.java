@@ -1,12 +1,13 @@
-/*
+package ChallengeMe;
+
+/*******
  *   ProfessionalSoftwareDevelopment:ChallengeMe
  *   File: SwapTwoNums
  *   Created by: Melissa Melaugh
  *   Created on: 24/09/2020
- *   Updated on: 24/09/2020
+ *   Updated on: 30/09/2020
  *   Project Description: Create a program that swaps two numbers without using an intermediary variable.
- */
-package ChallengeMe;
+ *******/
 
 public class SwapTwoNums {
     public static void main (String ... args){

@@ -1,12 +1,13 @@
-/*
+package Lab2;
+
+/*******
  *   ProfessionalSoftwareDevelopment:Lab2
  *   File: Box
  *   Created by: Melissa Melaugh
  *   Created on: 24/09/2020
- *   Updated on: 24/09/2020
+ *   Updated on: 30/09/2020
  *   Project Description: Creates a Box object and calculates its area and perimeter
- */
-package Lab2;
+ *******/
 
 public class Box {
     private final int SIDES = 4;
