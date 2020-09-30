@@ -12,7 +12,7 @@ import java.text.DecimalFormat;
  *******/
 
 public class HoursWorked {
-    static public void main(String args[]){
+    public static void main(String args[]){
         /** Next we need to design and develop a program which prompts the user for their name and hours worked.
          * The program should store this information as variables. The program should also store the hourly rate of
          * £5.95 as a CONSTANT and then use this constant to calculate the user’s pay.

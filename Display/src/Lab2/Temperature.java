@@ -13,10 +13,10 @@ import java.util.Scanner;
  *******/
 
 public class Temperature {
-    static private final double RATIO = (9.0/5), ADJUSTMENT = 32;
-    static private Scanner sc = new Scanner(System.in);
+    private static final double RATIO = (9.0/5), ADJUSTMENT = 32;
+    private static Scanner sc = new Scanner(System.in);
 
-    static public void main(String[] args){
+    public static void main(String[] args){
         double celcius=0, farenheight=0;
         char type;
         DecimalFormat df = new DecimalFormat("0.0");
@@ -40,15 +40,15 @@ public class Temperature {
         System.out.println("Farenheight: " + df.format(farenheight));
     }//end main
 
-    static private double celciusToFarenheight(double celcius){
+    private static double celciusToFarenheight(double celcius){
         double farenheight;
         farenheight = (celcius * RATIO) + ADJUSTMENT;
         return farenheight;
     }//end celciusToFarenheight
 
-    static private double farenheightToCelcius(double farenheight){
+    private static double farenheightToCelcius(double farenheight){
         double celcius;
         celcius = ((farenheight - ADJUSTMENT) / RATIO);
         return celcius;
     }//end farenheightToCelcius
-}
+}//end Temperature

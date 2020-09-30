@@ -9,11 +9,11 @@ package Lab2;
  */
 
 public class Time {
-    static public void main(String[] args){
+    public static void main(String[] args){
         convertSectoMin(5000);
     }//end main
 
-    static private void convertSectoMin(int seconds){
+    private static void convertSectoMin(int seconds){
         final int SEC_IN_MIN = 60;
         int min = seconds / SEC_IN_MIN;
         int sec = seconds % SEC_IN_MIN;

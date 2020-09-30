@@ -12,7 +12,7 @@ import javax.swing.JOptionPane;
 import java.text.DecimalFormat;
 
 public class JOptionDisplay {
-    static public void main (String[] args){
+    public static void main (String[] args){
         makeRectangle(3, 4);
         changeSeconds(5000);
     }//end main

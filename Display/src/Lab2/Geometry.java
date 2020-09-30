@@ -12,7 +12,7 @@ import java.text.DecimalFormat;
  *******/
 
 public class Geometry {
-    static private DecimalFormat df = new DecimalFormat("0.00");
+    private static DecimalFormat df = new DecimalFormat("0.00");
 
     public static void main(String[] args){
         makeBox(5, 4, 3);
