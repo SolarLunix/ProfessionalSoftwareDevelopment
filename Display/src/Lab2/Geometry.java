@@ -52,7 +52,7 @@ public class Geometry {
 
     private static void makeBox(double length, double width, double height){
         Box box = new Box(length, width, height);
-        System.out.println("The box is " + box.getHeight() + "cm high, " + df.format(box.getWidth()) +
+        System.out.println("The box is " + df.format(box.getHeight()) + "cm high, " + df.format(box.getWidth()) +
                 "cm wide and " + df.format(box.getLength()) + "cm deep");
         System.out.println("The volume of the box is " + df.format(box.getArea()) + " cms cubed");
         System.out.println("The perimeter of the box is " + df.format(box.getPerimeter()) + " cms");
