@@ -41,7 +41,7 @@ public class DaysInMonth1 {
             default:
                 days = 31;
         }
-        
+
         /*
         //OR It could be like this:
         if (month == 2){
