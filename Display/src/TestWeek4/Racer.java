@@ -1,9 +1,7 @@
-package Test16Oct;
-
-import java.rmi.activation.ActivationGroup;
+package TestWeek4;
 
 /*******
- *   ProfessionalSoftwareDevelopment:Test16Oct
+ *   ProfessionalSoftwareDevelopment:TestWeek4
  *   File: Racer
  *   Created by: SolarLunix
  *   Created on: 16/10/2020

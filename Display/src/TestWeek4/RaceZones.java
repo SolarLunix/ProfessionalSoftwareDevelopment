@@ -1,10 +1,10 @@
-package Test16Oct;
+package TestWeek4;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
 /*******
- *   ProfessionalSoftwareDevelopment:Test16Oct
+ *   ProfessionalSoftwareDevelopment:TestWeek4
  *   File: RaceZones
  *   Created by: SolarLunix
  *   Created on: 16/10/2020

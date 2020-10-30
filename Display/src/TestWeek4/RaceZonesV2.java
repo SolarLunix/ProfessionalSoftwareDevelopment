@@ -1,7 +1,7 @@
-package Test16Oct;
+package TestWeek4;
 
 /*******
- *   ProfessionalSoftwareDevelopment:Test16Oct
+ *   ProfessionalSoftwareDevelopment:TestWeek4
  *   File: RaceZonesV2
  *   Created by: SolarLunix
  *   Created on: 16/10/2020
