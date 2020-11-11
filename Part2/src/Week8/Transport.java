@@ -6,7 +6,7 @@ import java.util.Scanner;
 /*******
  *   Part2:Week8
  *   File: Transport
- *   Created by: SolarLunix
+ *   Created by: Melissa Melaugh
  *   Created on: 11/11/2020
  *   Updated on: 11/11/2020
  *   Project Description: Program to read in the weights of containers until -1 is entered and calculate the cost of
