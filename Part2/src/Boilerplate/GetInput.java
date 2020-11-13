@@ -1,16 +1,16 @@
-package Boil;
+package Boilerplate;
 
 import java.util.Scanner;
 
 /*******
  *   ProfessionalSoftwareDevelopment:Boil
- *   File: BoilerPlateCode
+ *   File: GetInput
  *   Created by: Melissa Melaugh
  *   Created on: 21/10/2020
  *   Updated on: 21/10/2020
  *   Project Description: This is boilerplate code for things that I need done quickly.
  *******/
-public class BoilerPlateCode {
+public class GetInput {
     private static Scanner in = new Scanner(System.in);
 
     public static void main(String[] args) {
