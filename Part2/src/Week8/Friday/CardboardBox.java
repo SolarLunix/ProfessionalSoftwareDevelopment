@@ -16,7 +16,7 @@ public class CardboardBox {
     private String colour;
 
     public CardboardBox(){
-        this(0, 0, 0, "unknown");
+        this(-1, -1, -1, "unknown");
     }
 
     public CardboardBox(int width, int height, int depth){
@@ -39,7 +39,8 @@ public class CardboardBox {
         System.out.println("\nThe WIDTH of the cardboard box is " + width + " units.");
         System.out.println("The HEIGHT of the cardboard box is " + height + " units.");
         System.out.println("The DEPTH of the cardboard box is " + depth + " units.");
-        System.out.println("The VOLUME of the cardboard box is " + volume() + " units cubed.\n");
+        System.out.println("The VOLUME of the cardboard box is " + volume() + " units cubed.");
+        System.out.println("The COLOUR of the cardboard box is " + colour + ".\n");
     }
 
     public void printTopArea(){
@@ -55,6 +56,15 @@ public class CardboardBox {
     public void printSideArea(){
         int sideArea = depth * height;
         System.out.println("The SIDE AREA of the cardboard box is " + sideArea + " units squared");
+    }
+
+    public int requiredBoxes(int requiredVolume){
+        int boxVolume = volume();
+        int numBoxes = requiredVolume / boxVolume;
+        if(requiredVolume % boxVolume != 0){
+            numBoxes++;
+        }
+        return numBoxes;
     }
 
     public int getWidth() {
