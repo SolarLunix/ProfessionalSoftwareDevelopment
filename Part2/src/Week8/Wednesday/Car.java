@@ -1,4 +1,4 @@
-package Week8;
+package Week8.Wednesday;
 
 import java.text.DecimalFormat;
 import java.util.Calendar;
