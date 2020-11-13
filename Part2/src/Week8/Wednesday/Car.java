@@ -8,7 +8,7 @@ import java.util.Calendar;
  *   File: Car
  *   Created by: Melissa Melaugh
  *   Created on: 11/11/2020
- *   Updated on: 11/11/2020
+ *   Updated on: 13/11/2020
  *   Project Description: To store information about a Car
  *******/
 public class Car {
@@ -33,22 +33,15 @@ public class Car {
     }
 
     Car(int id, String make, String ownerName, String colour){
-        noOfCars++;
-        this.id = id;
-        this.make = make;
-        this.ownerName = ownerName;
-        this.colour = colour;
+        this(id, make, ownerName, colour, 0, 0, 0);
     }
 
     Car(int id, String make, int topSpeed){
-        noOfCars++;
-        this.id = id;
-        this.make = make;
-        this.topSpeed = topSpeed;
+        this(id, make, null, null, 0, topSpeed, 0);
     }
 
     Car(){
-        noOfCars++;
+        this(0, null, null, null, 0, 0, 0);
     }
 
     public void printCarInfo(){
