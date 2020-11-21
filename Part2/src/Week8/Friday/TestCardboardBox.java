@@ -1,7 +1,5 @@
 package Week8.Friday;
 
-import Week8.Wednesday.Car;
-
 import java.util.Scanner;
 
 /*******
