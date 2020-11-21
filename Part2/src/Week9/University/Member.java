@@ -5,21 +5,43 @@ package Week9.University;
  *   File: Member
  *   Created by: Melissa Melaugh
  *   Created on: 18/11/2020
- *   Updated on: 18/11/2020
+ *   Updated on: 21/11/2020
  *   Project Description: A member of the university
  *******/
 public abstract class Member {
-    String name;
-    String email;
+    private String name;
+    private String email;
 
-    Member(){
-        this("UNKNOWN", "UNKNOWN");
+    public Member(){
+        this("", "");
     }
 
-    Member(String name, String email){
+    public Member(String name, String email){
         this.name = name;
         this.email = email;
     }
 
-    abstract String getStatus();
+    protected void setName(String name){
+        this.name = name;
+    }
+
+    public String getName(){
+        return this.name;
+    }
+
+    protected void setEmail(String email){
+        this.email = email;
+    }
+
+    public String getEmail(){
+        return this.email;
+    }
+
+    protected abstract String getStatus();
+
+    public String toString(){
+        String out = "\nName: \t" + this.name;
+        out += "\nEmail: \t" + this.email;
+        return  out;
+    }
 }
