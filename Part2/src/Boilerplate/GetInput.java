@@ -7,7 +7,7 @@ import java.util.Scanner;
  *   File: GetInput
  *   Created by: Melissa Melaugh
  *   Created on: 21/10/2020
- *   Updated on: 21/10/2020
+ *   Updated on: 25/11/2020
  *   Project Description: This is boilerplate code for things that I need done quickly.
  *******/
 public class GetInput {
@@ -20,7 +20,9 @@ public class GetInput {
     private static int getNextInt(String reqest){
         int nextint = 0;
         System.out.println(reqest);
-        nextint = in.nextInt();
+        if(in.hasNextInt()) {
+            nextint = in.nextInt();
+        }
         in.nextLine();
         return nextint;
     }
@@ -28,7 +30,9 @@ public class GetInput {
     private static double getNextDouble(String reqest){
         double nextdouble = 0;
         System.out.println(reqest);
-        nextdouble = in.nextDouble();
+        if(in.hasNextDouble()) {
+            nextdouble = in.nextDouble();
+        }
         in.nextLine();
         return nextdouble;
     }
