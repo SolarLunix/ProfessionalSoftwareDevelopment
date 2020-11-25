@@ -31,7 +31,7 @@ public class Rectangle extends Shape {
 
         numberOfRectangles++;  //adjust number of rectangles
         super.increaseNumberOfShapes();
-        shapeNumber = super.getNumberOfShapes();
+        this.shapeNumber = super.getNumberOfShapes();
     }//end complex instructor
 
     private int area(){
