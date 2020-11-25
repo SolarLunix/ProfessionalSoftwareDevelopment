@@ -15,6 +15,7 @@ public class Rectangle extends Shape {
     //create instance variables
     private int length;
     private int width;
+    private int shapeNumber;
 
     public Rectangle(){
         //Create defaults for the Rectangle and pass them to the complex constructor
@@ -22,13 +23,15 @@ public class Rectangle extends Shape {
     }//end default constructor
 
     public Rectangle(String colour, int length, int width){
-        super(colour);  // Intialise the colour to default colour
+        super.setColour(colour);  // Intialise the colour to default colour
 
         //Initialise length and width with given values
         this.length = length;
         this.width = width;
 
         numberOfRectangles++;  //adjust number of rectangles
+        super.increaseNumberOfShapes();
+        shapeNumber = super.getNumberOfShapes();
     }//end complex instructor
 
     private int area(){

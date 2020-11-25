@@ -8,19 +8,10 @@ package Week10.Test;
  *   Updated on: 25/11/2020
  *   Project Description: Stores information on geometric shapes
  *******/
-public class Shape {
+public abstract class Shape {
     //Create instance variables
     private String colour;
-
-    public Shape(){
-        //Create defaults (yellow colour) for the Shape and pass them to the complex constructor
-        this("yellow");
-    }//end default constructor
-
-    public Shape(String colour){
-        //Initialise the colour with the given value
-        this.colour = colour;
-    }//end complex constructor
+    private static int numberOfShapes = 0;
 
     @Override
     public String toString(){
@@ -33,4 +24,16 @@ public class Shape {
     public String getColour() {
         return colour; //return the colour of the object
     }//end getColour
+
+    public void setColour(String colour) {
+        this.colour = colour; //return the colour of the object
+    }//end getColour
+
+    protected void increaseNumberOfShapes(){
+        numberOfShapes++;
+    }
+
+    public static int getNumberOfShapes(){
+        return numberOfShapes;
+    }
 }//end Shape

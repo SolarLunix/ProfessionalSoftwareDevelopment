@@ -13,7 +13,6 @@ public class TestShape {
         //Create Two Rectangles and One Shape object
         Rectangle myRectangle = new Rectangle();
         Rectangle myRectangle2 = new Rectangle("blue", 6, 4);
-        Shape myShape = new Shape();
 
         //Print out the details of the shapes using toString()
         System.out.println(); //extra space for visibility
@@ -21,10 +20,9 @@ public class TestShape {
         System.out.println(); //extra space for visibility
         System.out.println(myRectangle2.toString());
         System.out.println(); //extra space for visibility
-        System.out.println(myShape.toString());
-        System.out.println(); //extra space for visibility
 
         //Print out the number of rectangles created using numberOfRectangles() method
         System.out.printf("There have been %d rectangles created.\n", Rectangle.numberOfRectangles());
+        System.out.println("The number of shapes is " + Shape.getNumberOfShapes());
     }//end main
 }//end TestShape
